@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height:100vh;
+    width:100%;
+    background-image: url('pic/sandhiya.jpeg');
+
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.logo{
+    color:green;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color:#ff004f
+}
+nav{
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 50px 35px;
+    margin-top: -40%;
+    margin-bottom: 15%;
+ 
+
+}
+nav ul li a{
+    color :white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#f9004d;
+    transition: .4s;
+
+}
+.content{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:white;
+    margin:20px 0px 20px;
+    margin-bottom:50px;
+    font-size: 70px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h4{
+    color:#fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.about{
+    width:100%;
+    padding:100 px 0px;
+    background-color:black;
+    margin-top: 50px;
+}
+.about img{
+    height:20%;
+    width: 300px;
+
+}
+.about-text{
+    width:550px;
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:white;
+    font-size:75px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+.about-text h5{
+    color:white;
+    font-size:22px;
+    letter-spacing: 3px;
+    margin-bottom:25px;
+}
+.about-text p{
+    color:white;
+    letter-spacing:1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:35px;
+}
+button{
+    background-color: #f9004d;
+    color:white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+}
+.skills{
+    width:100%;
+    padding:100 px 0px;
+    background-color:black;
+    font-size:medium;
+    margin-top: 50px;
+}
+.skills h2{
+    color:white;
+    font-size:75px;
+    text-transform:capitalize;
+    margin-bottom:20px;
+}
+ul li{
+    color:white;
+    letter-spacing:1px;
+    line-height:28px;
+    font-size:18px;
+    margin-bottom:45px;
+    position: center;
+    display:flexbox;
+    list-style: none;
+    margin: 50px 35px;
+}  
+.organization{
+    width:100%;
+    padding:100 px 0px;
+    background-color:black;
+}
+#contact{
+    background-color: black;
+    text-emphasis-color: white;
+}
+.row{
+    color:white
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color:#ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social.icons{
+    margin-top: 30px;
+}
+.social.icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color:#ababab;
+    display:inline-block;
+    transition:transform 0.5s;
+
+}
+.social.icons a:hover{
+    color:#ff004f;
+    transform:translateY(-5px);
+}
+.contact-right form{
+    width:100%;
+
+}
+form input,form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background:#262626;
+    padding:15px;
+    margin:15px 0;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
